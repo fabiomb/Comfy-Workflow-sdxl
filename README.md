@@ -10,6 +10,12 @@
 - You need to import Searge SDXL modules
 - Upscaling to 2048px
 
+
+## Versions
+
+- 1.1 Workflow for Base+Refiner and Upscaling
+- 1.2 Workflow for Base+Refiner+VAE, FaceFix and Upscaling 4K
+
 ## Installation
 
 1. Download the .json file from this repository.
@@ -18,6 +24,8 @@
 4. Select the downloaded .json file to import the workflow.
 
 ## Models
+
+Use ComfyUI Manager and install all models you need
 
 - SDXL 1.0 Base (https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors)
 - SDLX 1.0 Refiner (https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors)
