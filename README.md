@@ -1,7 +1,9 @@
 # Comfy-Workflow-sdxl
  Workflow for ComfyUI and SDXL 1.0
 
- ![ComfyUI Workflow Screenshot](img/workflow-mio-1.png)
+ ![V1.1](img/workflow-mio-1.png)
+
+![V1.2](img/v1.2-facefix.png)
 
 ## About
 
