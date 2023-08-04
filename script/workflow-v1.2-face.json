@@ -188,7 +188,7 @@
         8,
         4096,
         4096,
-        "(masterpiece,best quality, ultra realistic,32k,RAW photo,detail skin, 8k uhd, dslr,high quality, film grain:1.1), short hair , rainbow hair, pastel hair, portrait,lady, led light, edge light, simple background, age 18, girl, young, flat chest, detailed face, (freckles:0.6)"
+        "(RAW photo, 4k, masterpiece, high res, extremely intricate), cinematic lighting 1girl, solo focus, summer noon, hot, 1990s,cowboy shot,indoors,the upper part of the body, masterpiece, best quality, masterpiece,best quality,official art,extremely detailed CG unity 8k wallpaper, beautiful detailed eyes, artbook, photo, real, realistic, futuristic knight, (silver, long hair), mecha girl, mechanical parts, space station, Expressive Hues, Vibrant Palette,B lack and white clothes\n"
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -230,48 +230,6 @@
       }
     },
     {
-      "id": 77,
-      "type": "PrimitiveNode",
-      "pos": [
-        6,
-        -1231
-      ],
-      "size": {
-        "0": 291.2458190917969,
-        "1": 302.58148193359375
-      },
-      "flags": {},
-      "order": 0,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            470
-          ],
-          "slot_index": 0,
-          "widget": {
-            "name": "text_l",
-            "config": [
-              "STRING",
-              {
-                "multiline": true,
-                "default": "CLIP_L"
-              }
-            ]
-          }
-        }
-      ],
-      "title": "Supporting Terms",
-      "properties": {},
-      "widgets_values": [
-        ""
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 138,
       "type": "PrimitiveNode",
       "pos": [
@@ -285,7 +243,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 1,
+      "order": 0,
       "mode": 0,
       "outputs": [
         {
@@ -330,7 +288,7 @@
         "1": 82
       },
       "flags": {},
-      "order": 2,
+      "order": 1,
       "mode": 0,
       "outputs": [
         {
@@ -374,7 +332,7 @@
         "1": 82
       },
       "flags": {},
-      "order": 3,
+      "order": 2,
       "mode": 0,
       "outputs": [
         {
@@ -401,53 +359,6 @@
       "properties": {},
       "widgets_values": [
         7.5,
-        "fixed"
-      ],
-      "color": "#233",
-      "bgcolor": "#355"
-    },
-    {
-      "id": 115,
-      "type": "PrimitiveNode",
-      "pos": [
-        331,
-        -1071
-      ],
-      "size": {
-        "0": 210,
-        "1": 82
-      },
-      "flags": {
-        "collapsed": false
-      },
-      "order": 4,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            474,
-            475
-          ],
-          "slot_index": 0,
-          "widget": {
-            "name": "steps",
-            "config": [
-              "INT",
-              {
-                "default": 20,
-                "min": 1,
-                "max": 10000
-              }
-            ]
-          }
-        }
-      ],
-      "title": "Steps",
-      "properties": {},
-      "widgets_values": [
-        20,
         "fixed"
       ],
       "color": "#233",
@@ -512,7 +423,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 5,
+      "order": 3,
       "mode": 0,
       "outputs": [
         {
@@ -538,7 +449,7 @@
       "title": "Linguistic Positive",
       "properties": {},
       "widgets_values": [
-        "(masterpiece,best quality, ultra realistic,32k,RAW photo,detail skin, 8k uhd, dslr,high quality, film grain:1.1), short hair , rainbow hair, pastel hair, portrait,lady, led light, edge light, simple background, age 18, girl, young, flat chest, detailed face, (freckles:0.6)"
+        "(RAW photo, 4k, masterpiece, high res, extremely intricate), cinematic lighting 1girl, solo focus, summer noon, hot, 1990s,cowboy shot,indoors,the upper part of the body, masterpiece, best quality, masterpiece,best quality,official art,extremely detailed CG unity 8k wallpaper, beautiful detailed eyes, artbook, photo, real, realistic, futuristic knight, (silver, long hair), mecha girl, mechanical parts, space station, Expressive Hues, Vibrant Palette,B lack and white clothes\n"
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -555,7 +466,7 @@
         "1": 82
       },
       "flags": {},
-      "order": 6,
+      "order": 4,
       "mode": 0,
       "outputs": [
         {
@@ -600,7 +511,7 @@
         "1": 172.01026916503906
       },
       "flags": {},
-      "order": 7,
+      "order": 5,
       "mode": 0,
       "outputs": [
         {
@@ -627,7 +538,7 @@
       "title": "Fundamental Negative",
       "properties": {},
       "widgets_values": [
-        "asian, chinese"
+        "cartoon, cgi, render, illustration, painting, drawing, bad quality, grainy, low resolution, text, watermark,\nblurry, logo, watermark, signature, cropped, out of frame, worst quality, low quality, jpeg artifacts, poorly lit, overexposed, underexposed, glitch, error, out of focus, (semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, digital art, anime, manga:1.3), amateur, (poorly drawn hands, poorly drawn face:1.2), deformed iris, deformed pupils, morbid, duplicate, mutilated, extra fingers, mutated hands, poorly drawn eyes, mutation, deformed, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, incoherent, naked, nsfw\n"
       ],
       "color": "#322",
       "bgcolor": "#533"
@@ -824,7 +735,7 @@
         "1": 102
       },
       "flags": {},
-      "order": 8,
+      "order": 6,
       "mode": 0,
       "outputs": [
         {
@@ -968,7 +879,7 @@
         1,
         4096,
         4096,
-        "asian, chinese"
+        "cartoon, cgi, render, illustration, painting, drawing, bad quality, grainy, low resolution, text, watermark,\nblurry, logo, watermark, signature, cropped, out of frame, worst quality, low quality, jpeg artifacts, poorly lit, overexposed, underexposed, glitch, error, out of focus, (semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, digital art, anime, manga:1.3), amateur, (poorly drawn hands, poorly drawn face:1.2), deformed iris, deformed pupils, morbid, duplicate, mutilated, extra fingers, mutated hands, poorly drawn eyes, mutation, deformed, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, incoherent, naked, nsfw\n"
       ],
       "color": "#322",
       "bgcolor": "#533"
@@ -1261,7 +1172,7 @@
         26
       ],
       "flags": {},
-      "order": 9,
+      "order": 7,
       "mode": 0,
       "inputs": [
         {
@@ -1462,14 +1373,14 @@
       },
       "widgets_values": [
         "enable",
-        842872161,
+        842872165,
         "fixed",
-        20,
+        25,
         7.5,
         "ddim",
         "ddim_uniform",
         0,
-        13,
+        20,
         "enable"
       ],
       "color": "#323",
@@ -1579,14 +1490,14 @@
       },
       "widgets_values": [
         "disable",
-        842872161,
+        842872165,
         "fixed",
-        20,
+        25,
         7.5,
         "ddim",
         "ddim_uniform",
-        13,
         20,
+        25,
         "disable"
       ],
       "color": "#323",
@@ -1802,7 +1713,7 @@
         "pinned": true,
         "collapsed": false
       },
-      "order": 10,
+      "order": 8,
       "mode": 0,
       "outputs": [
         {
@@ -1838,7 +1749,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 11,
+      "order": 9,
       "mode": 0,
       "outputs": [
         {
@@ -1874,7 +1785,7 @@
       "flags": {
         "pinned": false
       },
-      "order": 12,
+      "order": 10,
       "mode": 0,
       "title": "Basic Prompting Guide",
       "properties": {
@@ -1974,7 +1885,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 13,
+      "order": 11,
       "mode": 0,
       "outputs": [
         {
@@ -2006,7 +1917,7 @@
         "1": 98
       },
       "flags": {},
-      "order": 14,
+      "order": 12,
       "mode": 0,
       "outputs": [
         {
@@ -2040,6 +1951,509 @@
       },
       "widgets_values": [
         "sd_xl_refiner_1.0.safetensors"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 145,
+      "type": "Reroute",
+      "pos": [
+        767,
+        -51
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 35,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 535
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "MODEL",
+          "links": [
+            536,
+            583
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 75,
+      "type": "CLIPTextEncodeSDXL",
+      "pos": [
+        553,
+        -22
+      ],
+      "size": {
+        "0": 400,
+        "1": 289.9999694824219
+      },
+      "flags": {
+        "collapsed": true,
+        "pinned": false
+      },
+      "order": 37,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 523,
+          "slot_index": 0
+        },
+        {
+          "name": "text_g",
+          "type": "STRING",
+          "link": 434,
+          "widget": {
+            "name": "text_g",
+            "config": [
+              "STRING",
+              {
+                "multiline": true,
+                "default": "CLIP_G"
+              }
+            ]
+          }
+        },
+        {
+          "name": "text_l",
+          "type": "STRING",
+          "link": 470,
+          "widget": {
+            "name": "text_l",
+            "config": [
+              "STRING",
+              {
+                "multiline": true,
+                "default": "CLIP_L"
+              }
+            ]
+          },
+          "slot_index": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            282,
+            571,
+            572
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Positive Base",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncodeSDXL"
+      },
+      "widgets_values": [
+        4096,
+        4096,
+        0,
+        0,
+        4096,
+        4096,
+        "(RAW photo, 4k, masterpiece, high res, extremely intricate), cinematic lighting 1girl, solo focus, summer noon, hot, 1990s,cowboy shot,indoors,the upper part of the body, masterpiece, best quality, masterpiece,best quality,official art,extremely detailed CG unity 8k wallpaper, beautiful detailed eyes, artbook, photo, real, realistic, futuristic knight, (silver, long hair), mecha girl, mechanical parts, space station, Expressive Hues, Vibrant Palette,B lack and white clothes\n",
+        "\n"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 82,
+      "type": "CLIPTextEncodeSDXL",
+      "pos": [
+        545,
+        21
+      ],
+      "size": {
+        "0": 400,
+        "1": 289.9999694824219
+      },
+      "flags": {
+        "collapsed": true,
+        "pinned": false
+      },
+      "order": 36,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 522,
+          "slot_index": 0
+        },
+        {
+          "name": "text_g",
+          "type": "STRING",
+          "link": 302,
+          "widget": {
+            "name": "text_g",
+            "config": [
+              "STRING",
+              {
+                "multiline": true,
+                "default": "CLIP_G"
+              }
+            ]
+          }
+        },
+        {
+          "name": "text_l",
+          "type": "STRING",
+          "link": 476,
+          "widget": {
+            "name": "text_l",
+            "config": [
+              "STRING",
+              {
+                "multiline": true,
+                "default": "CLIP_L"
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            569
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Negative Base",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncodeSDXL"
+      },
+      "widgets_values": [
+        4096,
+        4096,
+        0,
+        0,
+        4096,
+        4096,
+        "cartoon, cgi, render, illustration, painting, drawing, bad quality, grainy, low resolution, text, watermark,\nblurry, logo, watermark, signature, cropped, out of frame, worst quality, low quality, jpeg artifacts, poorly lit, overexposed, underexposed, glitch, error, out of focus, (semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, digital art, anime, manga:1.3), amateur, (poorly drawn hands, poorly drawn face:1.2), deformed iris, deformed pupils, morbid, duplicate, mutilated, extra fingers, mutated hands, poorly drawn eyes, mutation, deformed, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, incoherent, naked, nsfw\n",
+        "cartoon, cgi, render, illustration, painting, drawing, bad quality, grainy, low resolution, text, watermark,\nblurry, logo, watermark, signature, cropped, out of frame, worst quality, low quality, jpeg artifacts, poorly lit, overexposed, underexposed, glitch, error, out of focus, (semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, digital art, anime, manga:1.3), amateur, (poorly drawn hands, poorly drawn face:1.2), deformed iris, deformed pupils, morbid, duplicate, mutilated, extra fingers, mutated hands, poorly drawn eyes, mutation, deformed, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, incoherent, naked, nsfw\n"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 174,
+      "type": "UltralyticsDetectorProvider",
+      "pos": [
+        1306,
+        -231
+      ],
+      "size": {
+        "0": 240,
+        "1": 80
+      },
+      "flags": {
+        "pinned": false
+      },
+      "order": 13,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "BBOX_DETECTOR",
+          "type": "BBOX_DETECTOR",
+          "links": [
+            585
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "SEGM_DETECTOR",
+          "type": "SEGM_DETECTOR",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UltralyticsDetectorProvider"
+      },
+      "widgets_values": [
+        "bbox/face_yolov8m.pt"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 175,
+      "type": "SAMLoader",
+      "pos": [
+        1308,
+        -91
+      ],
+      "size": {
+        "0": 240,
+        "1": 82
+      },
+      "flags": {
+        "pinned": false
+      },
+      "order": 14,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "SAM_MODEL",
+          "type": "SAM_MODEL",
+          "links": [
+            584
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SAMLoader"
+      },
+      "widgets_values": [
+        "sam_vit_b_01ec64.pth",
+        "AUTO"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 171,
+      "type": "UpscaleModelLoader",
+      "pos": [
+        1688.3874498413084,
+        -776.657473223877
+      ],
+      "size": {
+        "0": 260.1150817871094,
+        "1": 63.659217834472656
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 15,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "UPSCALE_MODEL",
+          "type": "UPSCALE_MODEL",
+          "links": [
+            573
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UpscaleModelLoader"
+      },
+      "widgets_values": [
+        "4x-UltraSharp.pth"
+      ]
+    },
+    {
+      "id": 66,
+      "type": "PrimitiveNode",
+      "pos": [
+        329,
+        -942
+      ],
+      "size": {
+        "0": 210,
+        "1": 82
+      },
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            214,
+            482
+          ],
+          "widget": {
+            "name": "noise_seed",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 18446744073709552000
+              }
+            ]
+          },
+          "slot_index": 0
+        }
+      ],
+      "title": "Seed",
+      "properties": {},
+      "widgets_values": [
+        842872166,
+        "increment"
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 77,
+      "type": "PrimitiveNode",
+      "pos": [
+        6,
+        -1231
+      ],
+      "size": {
+        "0": 291.2458190917969,
+        "1": 302.58148193359375
+      },
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            470
+          ],
+          "slot_index": 0,
+          "widget": {
+            "name": "text_l",
+            "config": [
+              "STRING",
+              {
+                "multiline": true,
+                "default": "CLIP_L"
+              }
+            ]
+          }
+        }
+      ],
+      "title": "Supporting Terms",
+      "properties": {},
+      "widgets_values": [
+        "\n"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 115,
+      "type": "PrimitiveNode",
+      "pos": [
+        331,
+        -1071
+      ],
+      "size": {
+        "0": 210,
+        "1": 82
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 18,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            474,
+            475
+          ],
+          "slot_index": 0,
+          "widget": {
+            "name": "steps",
+            "config": [
+              "INT",
+              {
+                "default": 20,
+                "min": 1,
+                "max": 10000
+              }
+            ]
+          }
+        }
+      ],
+      "title": "Steps",
+      "properties": {},
+      "widgets_values": [
+        25,
+        "fixed"
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 10,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        -305.06534425927657,
+        -51.483663935180815
+      ],
+      "size": {
+        "0": 315,
+        "1": 98
+      },
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            527
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            524
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            581
+          ],
+          "slot_index": 2
+        }
+      ],
+      "title": "Base Model",
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "dreamshaperXL10_alpha2Xl10.safetensors"
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -2150,9 +2564,9 @@
         "Node name for S&R": "FaceDetailer"
       },
       "widgets_values": [
-        768,
+        1024,
         "bbox",
-        960,
+        1280,
         472186721126174,
         "fixed",
         5,
@@ -2174,420 +2588,6 @@
         "False",
         10,
         ""
-      ],
-      "color": "#233",
-      "bgcolor": "#355"
-    },
-    {
-      "id": 145,
-      "type": "Reroute",
-      "pos": [
-        767,
-        -51
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 35,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 535
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "MODEL",
-          "links": [
-            536,
-            583
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 10,
-      "type": "CheckpointLoaderSimple",
-      "pos": [
-        -305.06534425927657,
-        -51.483663935180815
-      ],
-      "size": {
-        "0": 315,
-        "1": 98
-      },
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            527
-          ],
-          "slot_index": 0
-        },
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            524
-          ],
-          "slot_index": 1
-        },
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [
-            581
-          ],
-          "slot_index": 2
-        }
-      ],
-      "title": "Base Model",
-      "properties": {
-        "Node name for S&R": "CheckpointLoaderSimple"
-      },
-      "widgets_values": [
-        "sd_xl_base_1.0.safetensors"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 75,
-      "type": "CLIPTextEncodeSDXL",
-      "pos": [
-        553,
-        -22
-      ],
-      "size": {
-        "0": 400,
-        "1": 289.9999694824219
-      },
-      "flags": {
-        "collapsed": true,
-        "pinned": false
-      },
-      "order": 37,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 523,
-          "slot_index": 0
-        },
-        {
-          "name": "text_g",
-          "type": "STRING",
-          "link": 434,
-          "widget": {
-            "name": "text_g",
-            "config": [
-              "STRING",
-              {
-                "multiline": true,
-                "default": "CLIP_G"
-              }
-            ]
-          }
-        },
-        {
-          "name": "text_l",
-          "type": "STRING",
-          "link": 470,
-          "widget": {
-            "name": "text_l",
-            "config": [
-              "STRING",
-              {
-                "multiline": true,
-                "default": "CLIP_L"
-              }
-            ]
-          },
-          "slot_index": 2
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            282,
-            571,
-            572
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Positive Base",
-      "properties": {
-        "Node name for S&R": "CLIPTextEncodeSDXL"
-      },
-      "widgets_values": [
-        4096,
-        4096,
-        0,
-        0,
-        4096,
-        4096,
-        "(masterpiece,best quality, ultra realistic,32k,RAW photo,detail skin, 8k uhd, dslr,high quality, film grain:1.1), short hair , rainbow hair, pastel hair, portrait,lady, led light, edge light, simple background, age 18, girl, young, flat chest, detailed face, (freckles:0.6)",
-        ""
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
-      "id": 82,
-      "type": "CLIPTextEncodeSDXL",
-      "pos": [
-        545,
-        21
-      ],
-      "size": {
-        "0": 400,
-        "1": 289.9999694824219
-      },
-      "flags": {
-        "collapsed": true,
-        "pinned": false
-      },
-      "order": 36,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 522,
-          "slot_index": 0
-        },
-        {
-          "name": "text_g",
-          "type": "STRING",
-          "link": 302,
-          "widget": {
-            "name": "text_g",
-            "config": [
-              "STRING",
-              {
-                "multiline": true,
-                "default": "CLIP_G"
-              }
-            ]
-          }
-        },
-        {
-          "name": "text_l",
-          "type": "STRING",
-          "link": 476,
-          "widget": {
-            "name": "text_l",
-            "config": [
-              "STRING",
-              {
-                "multiline": true,
-                "default": "CLIP_L"
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            569
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Negative Base",
-      "properties": {
-        "Node name for S&R": "CLIPTextEncodeSDXL"
-      },
-      "widgets_values": [
-        4096,
-        4096,
-        0,
-        0,
-        4096,
-        4096,
-        "asian, chinese",
-        "asian, chinese"
-      ],
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
-      "id": 174,
-      "type": "UltralyticsDetectorProvider",
-      "pos": [
-        1306,
-        -231
-      ],
-      "size": {
-        "0": 240,
-        "1": 80
-      },
-      "flags": {
-        "pinned": false
-      },
-      "order": 16,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "BBOX_DETECTOR",
-          "type": "BBOX_DETECTOR",
-          "links": [
-            585
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "SEGM_DETECTOR",
-          "type": "SEGM_DETECTOR",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "UltralyticsDetectorProvider"
-      },
-      "widgets_values": [
-        "bbox/face_yolov8m.pt"
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
-      "id": 175,
-      "type": "SAMLoader",
-      "pos": [
-        1308,
-        -91
-      ],
-      "size": {
-        "0": 240,
-        "1": 82
-      },
-      "flags": {
-        "pinned": false
-      },
-      "order": 17,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "SAM_MODEL",
-          "type": "SAM_MODEL",
-          "links": [
-            584
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SAMLoader"
-      },
-      "widgets_values": [
-        "sam_vit_b_01ec64.pth",
-        "AUTO"
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
-      "id": 171,
-      "type": "UpscaleModelLoader",
-      "pos": [
-        1688.3874498413084,
-        -776.657473223877
-      ],
-      "size": {
-        "0": 260.1150817871094,
-        "1": 63.659217834472656
-      },
-      "flags": {
-        "collapsed": false
-      },
-      "order": 18,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "UPSCALE_MODEL",
-          "type": "UPSCALE_MODEL",
-          "links": [
-            573
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "UpscaleModelLoader"
-      },
-      "widgets_values": [
-        "4x-UltraSharp.pth"
-      ]
-    },
-    {
-      "id": 66,
-      "type": "PrimitiveNode",
-      "pos": [
-        329,
-        -942
-      ],
-      "size": {
-        "0": 210,
-        "1": 82
-      },
-      "flags": {},
-      "order": 19,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            214,
-            482
-          ],
-          "widget": {
-            "name": "noise_seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
-          },
-          "slot_index": 0
-        }
-      ],
-      "title": "Seed",
-      "properties": {},
-      "widgets_values": [
-        842872162,
-        "increment"
       ],
       "color": "#233",
       "bgcolor": "#355"
