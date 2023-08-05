@@ -15,8 +15,9 @@
 
 ## Versions
 
-- 1.1 Workflow for Base+Refiner and Upscaling
-- 1.2 Workflow for Base+Refiner+VAE, FaceFix and Upscaling 4K
+- 1.1 Workflow - Complejo - for Base+Refiner and Upscaling
+- 1.2 Workflow - Face -  for Base+Refiner+VAE, FaceFix and Upscaling 4K
+- 1.2 Workflow - Simple - Easy to use and simple with Upscaling 4K, just Base+VAE
 
 ## Installation
 
