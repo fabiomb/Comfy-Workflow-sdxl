@@ -1,7 +1,9 @@
 # Comfy-Workflow-sdxl
  Workflow for ComfyUI and SDXL 1.0
 
- ![ComfyUI Workflow Screenshot](img/workflow-mio-1.png)
+ ![V1.1](img/workflow-mio-1.png)
+
+![V1.2](img/v1.2-facefix.png)
 
 ## About
 
@@ -9,6 +11,12 @@
 - Upscaling from Searge SDXL (https://github.com/SeargeDP/SeargeSDXL)
 - You need to import Searge SDXL modules
 - Upscaling to 2048px
+
+
+## Versions
+
+- 1.1 Workflow for Base+Refiner and Upscaling
+- 1.2 Workflow for Base+Refiner+VAE, FaceFix and Upscaling 4K
 
 ## Installation
 
@@ -18,6 +26,8 @@
 4. Select the downloaded .json file to import the workflow.
 
 ## Models
+
+Use ComfyUI Manager and install all models you need
 
 ### Checkpoints (copy to ComfyUI/models/checkpoints)
 - SDXL 1.0 Base (https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors)
