@@ -30,8 +30,12 @@
 
 Use ComfyUI Manager and install all models you need
 
+### Checkpoints (copy to ComfyUI/models/checkpoints)
 - SDXL 1.0 Base (https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors)
 - SDLX 1.0 Refiner (https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors)
+
+### Upscale (copy to ComfyUI/models/upscale_models)
+- SDXL 1.0 Base (https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors)
 - 4x_NMKD-Siax_200k.pth upscaler (https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x_NMKD-Siax_200k.pth)
 - 4x-Ultrasharp.pth upscaler (https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x-UltraSharp.pth)
 
