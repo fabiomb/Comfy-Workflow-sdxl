@@ -18,6 +18,10 @@
 - 1.1 Workflow - Complejo - for Base+Refiner and Upscaling
 - 1.2 Workflow - Face -  for Base+Refiner+VAE, FaceFix and Upscaling 4K
 - 1.2 Workflow - Simple - Easy to use and simple with Upscaling 4K, just Base+VAE
+- 1.3 Worfklow - Complejo - Complex workflow, two passes
+- 1.3 Workflow - Face - Face restoration/refacing
+- 1.3 Workflow - LORA - Including LORA
+- 1.3 Workflow - Turbo - Simple workflow for Turbo models
 
 ## Installation
 
