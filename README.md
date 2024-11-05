@@ -22,6 +22,8 @@
 - 1.3 Workflow - Face - Face restoration/refacing
 - 1.3 Workflow - LORA - Including LORA
 - 1.3 Workflow - Turbo - Simple workflow for Turbo models
+- Flux GGUF
+- Stable Diffusion 3.5 full
 
 ## Installation
 
